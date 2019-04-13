@@ -1,0 +1,14 @@
+{
+  "development": {
+    "storage": "token.db",
+    "dialect": "sqlite"
+  },
+  "test": {
+    "storage": "token.db",
+    "dialect": "sqlite"
+  },
+  "production": {
+    "storage": "token.db",
+    "dialect": "sqlite"
+  }
+}
