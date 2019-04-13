@@ -16,12 +16,6 @@ module.exports = appInfo => {
         enable: false,
       },
     },
-    cluster: {
-      listen: {
-        port: 1521,
-        hostname: 'sjydzq.top',
-      }
-    }
   };
 
   // use for cookie sign key, should change to your own and keep security

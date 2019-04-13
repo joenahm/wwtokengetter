@@ -29,7 +29,7 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-wwtokengetter",
+    "start": "egg-scripts start --port=1521 --daemon --title=egg-server-wwtokengetter",
     "stop": "egg-scripts stop --title=egg-server-wwtokengetter",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
