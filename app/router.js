@@ -8,6 +8,8 @@ module.exports = app => {
 
   router.get('/', controller.home.index);
 
+  router.get('/token', controller.token.index);
+
   router.post('/updateValue', controller.update.value);
 
   router.get('/updateStatus', controller.update.status);
